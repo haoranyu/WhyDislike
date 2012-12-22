@@ -1,0 +1,96 @@
+.center{
+width:984px;
+margin:10px auto;
+}
+.reg{
+width:660px;
+background:#F0F4F5;
+border:1px solid #BAD1D7;
+float:left;
+}
+.inner{
+margin:14px;
+}
+.tit{
+background:url('../img/reg.jpg') no-repeat ;
+height:40px;
+width:93px;
+float:left;
+margin-right:20px;
+}
+.log{
+color:#999;
+height:35px;
+line-height:35px;
+padding-top:5px;
+}
+.log a{
+color:#225263;
+text-decoration:none;
+}
+.log a:hover{
+text-decoration:underline;
+}
+.fm{
+margin:14px 4px;
+height:345px;
+width:620px;
+}
+.itm{
+width:70px;
+color:#666;
+font-weight:bold;
+float:left;
+}
+.itm li{
+width:70px;
+height:62px;
+line-height:28px;
+}
+.input{
+float:left;
+*width:510px;
+*height:370px;
+*overflow:hidden;
+}
+.input small{
+font-size:12px;
+margin-left:7px;
+color:red;
+}
+.input span{
+display:block;
+}
+.input .comm{
+height:28px;
+color:#666;
+line-height:28px;
+margin-bottom:6px;
+}
+.input input{
+width:195px;
+border:1px solid #C2C2C2;
+border-bottom:1px solid #E8E8E8;
+border-right:1px solid #E8E8E8;
+height:26px;
+padding-left:3px;
+}
+.btn{
+background:#4A5E65;
+border:1px solid #073F4D;
+color:#eee;
+*margin-left:-14px;
+}
+.ad{
+width:310px;
+height:430px;
+background:url('../img/rbg.jpg') no-repeat ;
+float:left;
+}
+.hint{
+color:red;
+float:left;
+display:block;
+font-size:12px;
+height:60px;
+}

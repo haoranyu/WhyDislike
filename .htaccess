@@ -1,0 +1,33 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?model=user&domain=$1
+RewriteRule ^u/([0-9]+)$ index.php?model=user&uid=$1
+RewriteRule ^u/([0-9]+)/$ index.php?model=user&uid=$1
+RewriteRule ^center/$ index.php?model=center
+RewriteRule ^center/page/([0-9]+)$ index.php?model=center&page=$1
+RewriteRule ^dislike/$ index.php?model=center&correct=0
+RewriteRule ^dislike/page/([0-9]+)$ index.php?model=center&correct=0&page=$1
+RewriteRule ^correct/$ index.php?model=center&correct=1
+RewriteRule ^correct/page/([0-9]+)$ index.php?model=center&correct=1&page=$1
+RewriteRule ^setting/$ index.php?model=setting 
+RewriteRule ^setting/([0-9]+)$ index.php?model=setting&tab=$1
+RewriteRule ^setting/2/(.*)/$ index.php?model=setting&tab=2&authcode=$1
+RewriteRule ^friend/$ index.php?model=friend&att=0
+RewriteRule ^friend/page/([0-9]+)$ index.php?model=friend&att=0&page=$1 
+RewriteRule ^att/$ index.php?model=friend&att=1
+RewriteRule ^att/page/([0-9]+)$ index.php?model=friend&att=1&page=$1
+RewriteRule ^logout/$ index.php?model=logout
+RewriteRule ^login/$ index.php?model=login
+RewriteRule ^square/$ index.php?model=square
+RewriteRule ^square/page/([0-9]+)$ index.php?model=square&page=$1
+RewriteRule ^tag/([0-9]+)$ index.php?model=tag&tag=$1
+RewriteRule ^tag/([0-9]+)/page/([0-9]+)$ index.php?model=tag&tag=$1&page=$2
+RewriteRule ^reg/$ index.php?model=reg
+RewriteRule ^reg/(.*)/$ index.php?model=reg&code=$1
+RewriteRule ^social/(.*)/$ index.php?model=social&mid=$1
+RewriteRule ^verify/(.*)/$ index.php?model=reg&verify=$1
+RewriteRule ^fav/$ index.php?model=fav
+RewriteRule ^fav/page/([0-9]+)$ index.php?model=fav&page=$1
+RewriteRule ^dislike/([0-9]+)/$ index.php?model=dislike&cid=$1
+RewriteRule ^dislike/([0-9]+)$ index.php?model=dislike&cid=$1
+#ErrorDocument 404 http://www.baidu.com/search/error.html

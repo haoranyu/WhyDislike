@@ -1,0 +1,140 @@
+#container{
+width:984px;
+margin:0 auto;
+font-family:arial; font-size:14px ;
+background:url(../img/timeline.jpg) repeat-y center;
+_background-position:485px 0;
+padding:7px 0;
+}
+.item {
+width: 470px;
+margin:7px 10px;
+float: left;
+background-color:#ffffff;
+border:solid 1px #C3CBDF;
+text-align:justify;
+word-wrap:break-word; 
+}
+.iteminner{
+padding:14px;
+}
+.itmreply{
+color:#333;
+margin-bottom:14px;
+line-height:24px;
+}
+.quote{
+padding:6px 12px;
+line-height:18px;
+color:#555
+}
+.rightCorner,.leftCorner{
+display: block;
+height: 15px;
+width: 13px;
+margin-top: 8px;
+position: absolute;
+padding: 0;
+z-index:99999;
+}
+.rightCorner { 
+background: url(../img/right.png);
+margin-left: 470px;
+_margin-left: 468px;
+}
+.leftCorner{
+background: url(../img/left.png);
+margin-left: -13px;
+}
+.timelinesum{
+width:320px;text-align:center;margin:0 auto;margin-bottom:14px;background-color:#ffffff;border:solid 1px #C3CBDF;font-family:arial; font-size:14px ;padding:8px;
+}
+.rthe0{
+background:#EDFAED;
+border-bottom:1px solid #C9EEC9;
+border-top:1px solid #C9EEC9;
+}
+.rthe1{
+background:#F8F6E4;
+border-bottom:1px solid #F3EBBA;
+border-top:1px solid #F3EBBA;
+}
+.rthe2{
+background:#FAEDED;
+border-bottom:1px solid #EEC9C9;
+border-top:1px solid #EEC9C9;
+}
+.ci{
+height:60px;
+border-bottom:1px solid #E2E6F1;
+margin-bottom:6px;
+}
+.cihead{
+height:48px;
+width:48px;
+background: url(../img/head/small/0.jpg) center #eee;
+float:left;
+}
+.ciinfo{
+width:100px;
+height:60px;
+margin-left:12px;
+float:left;
+}
+.ciinfo{
+color:#bbb
+}
+.ciinfo a{
+color:#225263;
+text-decoration:none;
+}
+.ciinfo a:hover{
+padding-bottom:1px;
+border-bottom:1px solid #225263;
+}
+.cibtn{
+width:60px;
+height:60px;
+float:left;
+margin-left:220px;
+}
+.cifav,.cifav2,.cifav3{
+cursor:pointer;
+display:block;
+width:44px;
+height:14px;
+margin-left:16px;
+background-image: url(../img/fav.gif);
+}
+.cifav2{
+background-position:0 -14px;
+}
+.cifav3{
+background-position:0 14px;
+}
+
+.rhead{
+width:36px;
+height:36px;
+overflow:hidden;
+float:left;
+background: url(../img/head/small/0.jpg) center;
+*margin-bottom:-6px;
+_margin-bottom:-20px;
+}
+.rhead img{
+margin:-6px 0 0 -6px
+}
+.rreply{
+float:left;
+width:360px;
+margin-left:6px;
+*margin-bottom:-6px;
+_margin-bottom:-20px;
+}
+.rreply a{
+color:#225263;
+text-decoration:none;
+font-weight:bold;
+margin-right:6px;
+}
